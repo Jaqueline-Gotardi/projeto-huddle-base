@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    padding: 50px;
+}
+
+html {
+    height: 100vh;
+}
+
+.principal { 
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    
+}
+
+.principal img {
+    display: flex;
+    max-width: 60%;
+    max-height: 60%;
+    /* padding-left: 30px; */
+}
+
+/* .information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    padding: 60px 45px;
+}
+
+.information h1 {
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.information p {
+    font-weight: 100;
+    padding: 35px 0;
+    font-size: 17px;
+} */
