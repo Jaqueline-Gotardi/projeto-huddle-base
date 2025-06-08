@@ -48,3 +48,10 @@ html {
     box-shadow: 0 6px 12px rgb(0, 0, 0, 0.4);
 }
 
+.social {
+    display: flex;
+    flex-direction: row;
+    /* color: #fff; */
+    
+}
+
