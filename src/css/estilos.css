@@ -39,3 +39,12 @@ html {
     line-height: 30px;
 } 
 
+.principal button {
+    padding: 15px 50px;
+    border-radius: 5em;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    font-size: 17px;
+    box-shadow: 0 6px 12px rgb(0, 0, 0, 0.4);
+}
+
