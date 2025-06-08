@@ -58,3 +58,8 @@ html {
     font-size: 25px;
 }
 
+.social a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+}
