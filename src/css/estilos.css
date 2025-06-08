@@ -52,6 +52,9 @@ html {
     display: flex;
     flex-direction: row;
     /* color: #fff; */
-    
+    justify-content: end;
+    padding-top: 6.2em;
+    letter-spacing: 20px;
+    font-size: 25px;
 }
 
