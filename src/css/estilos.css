@@ -8,12 +8,16 @@ html {
 }
 
 
+main {
+    display: flex;
+    flex-direction: row;
+}
 
 .principal { 
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .principal img {
