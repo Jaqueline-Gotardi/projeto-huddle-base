@@ -51,9 +51,9 @@ main {
     line-height: 30px;
 } 
 
-.principal button {
+.information button {
     padding: 15px 50px;
-    border-radius: 5em;
+    border-radius: 70em;
     border: none;
     color: hsl(257, 40%, 49%);
     font-size: 17px;
