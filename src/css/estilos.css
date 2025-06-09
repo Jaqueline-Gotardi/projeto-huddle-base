@@ -22,6 +22,7 @@ main {
 
 .principal img {
     display: flex;
+    width: 90vh;
     /* max-width: 60%;
     max-height: 60%; */
     padding-left: 30px;
