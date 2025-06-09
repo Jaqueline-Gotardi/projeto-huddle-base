@@ -7,9 +7,13 @@ html {
     height: 100vh;
 }
 
+
+
 .principal { 
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .principal img {
@@ -22,6 +26,7 @@ html {
 .information {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     color: #fff;
     padding: 60px 45px;
