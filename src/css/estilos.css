@@ -11,6 +11,7 @@ html {
 main {
     display: flex;
     flex-direction: row;
+    gap: 60px;
 }
 
 .principal { 
@@ -34,7 +35,7 @@ main {
     justify-content: center;
     align-items: flex-start;
     color: #fff;
-    padding: 60px 45px;
+    padding: 60px 45px; 
 }
 
 .information h1 {
@@ -43,6 +44,7 @@ main {
 }
 
 .information p {
+    
     font-weight: 100;
     padding: 35px 0;
     font-size: 20px;
