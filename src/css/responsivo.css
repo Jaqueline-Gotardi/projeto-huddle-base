@@ -1,10 +1,5 @@
 @media (max-width: 568px) {
 
-    /* codigo errado:
-    main {
-        background: url('../images/bg-mobile.svg') no-repeat;
-    } */
-
     header {
         padding: 45px;
     }
@@ -18,12 +13,6 @@
     flex-direction: column;
     padding: 35px;
     }
-
-    /* codigo errado:
-    main img {
-        background: url('../images/bg-mobile.svg') center center no-repeat;
-        
-    } */
 
     .principal img {
         width: 100%;    
@@ -42,8 +31,6 @@
 
     .information p {
         display: flex;
-        /* position: relative;
-        width: 2px; */
         font-size: 22px;
         text-align: center;
     
@@ -51,15 +38,12 @@
 
     .information button {
         display: flex;
-        /* width: 100px; */
         padding: 20px 100px;
-        /* justify-content: center; */
     }
 
     footer {
     display: flex;
     justify-self: center;
     padding: 20px;
-    /* padding-top: 0px; */
     }
 }
