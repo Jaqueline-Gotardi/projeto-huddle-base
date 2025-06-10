@@ -11,7 +11,7 @@ main {
     display: flex;
     flex-direction: row;
     gap: 50px; 
-    
+    padding: 20px 60px;
 }
 
 
