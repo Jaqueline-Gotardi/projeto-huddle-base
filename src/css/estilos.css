@@ -33,6 +33,7 @@ main {
     /* max-width: 60%;
     max-height: 60%; */
     padding-left: 30px;
+    width: 100vh;
 }
 
 .information {
@@ -65,6 +66,18 @@ main {
     box-shadow: 0 6px 12px rgb(0, 0, 0, 0.4);
 }
 
+.information button:hover {
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);;
+}
+
+footer {
+    display: flex;
+    justify-self: end;
+    align-content: space-between;
+    padding: 50px;
+}
+
 /* Codigo desnecessario:
 .social {
     display: flex;
@@ -75,7 +88,16 @@ main {
     /* padding-top: 6.2em; 
 } */
 
+.social div {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin: 30px;
+    /* padding-top: 70px; */
+}
+
 .social a {
+    
     /* display: flex; */
     /* flex-direction: row; */
     text-decoration: none;
@@ -89,4 +111,24 @@ main {
     padding-left: 9px;
     /* letter-spacing: 15px; */
     font-size: 30px;
+}
+
+.social a:hover {
+    color: hsl(324, 55%, 55%);
+    border-color: hsl(313, 72%, 66%);
+}
+
+.social i {
+    display: flex;
+    align-items: center;
+}
+
+.social .fa-facebook-f {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.social .fa-instagram {
+    padding-left: 3px;
+    padding-right: 3px;
 }
