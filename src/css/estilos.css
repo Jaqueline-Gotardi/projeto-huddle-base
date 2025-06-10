@@ -14,7 +14,11 @@ main {
     padding: 20px 60px;
 }
 
+/* Minhas tentativas erradas:
 
+.principal .efeito-mobile {
+    display: none;
+} */
 
 /* .principal { 
     display: flex;
