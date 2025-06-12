@@ -1,5 +1,4 @@
-@media (min-width: 330px) {
-
+@media (min-width: 330px) and (max-width: 1080px) {
     header {
         padding: 30px 40px;
     }
@@ -42,69 +41,25 @@
     }
 }
 
-
-
-
-@media (max-width: 768px) and (min-width: 457px) {
-
-    header {
-        padding: 45px;
+@media (min-width: 1081px) and (max-width: 1440px){
+    main { 
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
     }
 
-    header img {
-        width: 45%;
+    .principal img {
+        width: 100%;
+    }
+
+    small {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content:end;
     }  
+} 
 
-    main { 
-    display: flex;
-    flex-direction: column;
-    padding: 15px 35px;
-    }
-
-    .principal img {
-        width: 100%;    
-    }
-
-    .information {
-        display: flex;
-        align-items: center;
-        padding: 3px 5px;
-    }
-
-    .information h1 {
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .information p {
-        font-size: 22px;
-        text-align: center;
-        padding-top: 19px;
-    
-    }
-
-    .information button {
-        display: flex;
-        padding: 15px 100px;
-    }
-
-    footer {
-    display: flex;
-    justify-self: center;
-    padding: 20px;
-    }
-}
-
-
-@media (min-width: 769px) and (max-width: 1220px){
-
-    main { 
-    display: flex;
-    flex-direction: column;
-    padding: 35px;
-    }
-
-    .principal img {
-        width: 62vh;
-    }
-}
+/* max-width: 768px (mobile)
+min-width: 769px and max-width: 1024px (tablet)
+min-width: 1025px (desktop e grandes telas) */ 
