@@ -85,3 +85,9 @@ main {
     padding-right: 3px;
 }
 
+.copy p {
+    color: #fde7e7;
+    text-align: center;
+    font-size: 15px;
+    padding: 3px;
+}
