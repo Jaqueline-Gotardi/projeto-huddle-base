@@ -1,6 +1,5 @@
 @media (min-width: 330px) and (max-width: 1080px) {
     main { 
-    display: flex;
     flex-direction: column;
     padding: 35px;
     }
@@ -11,7 +10,6 @@
     }
 
      .information {
-        display: flex;
         align-items: center;
         padding: 3px 5px;
     }
