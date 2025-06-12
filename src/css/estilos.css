@@ -57,15 +57,12 @@ main {
 }
 
 .social a {
-    text-decoration: none;
     color: #fff;
     align-content: center;
     border: 2px solid #fff;
-    padding: 9px 9px;
+    padding: 9px;
     border-radius: 50px;
-    padding-left: 9px;
     font-size: 30px;
-
 }
 
 .social a:hover {
