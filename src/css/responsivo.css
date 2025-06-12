@@ -30,20 +30,17 @@
 
 @media (min-width: 1081px) and (max-width: 1350px){
     main { 
-    display: flex;
     flex-direction: row;
-    padding: 5px;
+    padding: 5px; 
     }
 
     .principal img {
-        width: 50vh;
+        width: 55vh;
     }
 
     small {
-        display: flex;
         flex-direction: column;
         justify-content: center;
-        align-content:end;
     }  
 } 
 
