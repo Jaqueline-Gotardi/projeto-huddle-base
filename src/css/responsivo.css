@@ -1,12 +1,4 @@
 @media (min-width: 330px) and (max-width: 1080px) {
-    header {
-        padding: 30px 40px;
-    }
-    
-    header img { 
-        width: 45%;
-    }  
-    
     main { 
     display: flex;
     flex-direction: column;
@@ -14,7 +6,8 @@
     }
 
      .principal img {
-        width: 100%;    
+        width: 100%; 
+        padding: 10px 40px;
     }
 
      .information {
@@ -49,7 +42,7 @@
     }
 
     .principal img {
-        width: 100%;
+        width: 50vh;
     }
 
     small {
