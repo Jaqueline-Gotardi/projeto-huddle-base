@@ -1,49 +1,43 @@
-@media (max-width: 568px) {
+@media (min-width: 330px) and (max-width: 1080px) {
 
     header {
-        padding: 45px;
+        padding: 30px 40px;
     }
-
-    header img {
+    
+    header img { 
         width: 45%;
-    } 
-
+    }  
+    
     main { 
     display: flex;
     flex-direction: column;
     padding: 35px;
     }
 
-    .principal img {
+     .principal img {
         width: 100%;    
     }
 
-    .information {
+     .information {
         display: flex;
         align-items: center;
-        padding-top: 0px;
+        padding: 3px 5px;
     }
 
     .information h1 {
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
     }
 
     .information p {
-        display: flex;
-        font-size: 22px;
+        font-size: 20px;
         text-align: center;
-    
-    }
-
-    .information button {
-        display: flex;
-        padding: 20px 100px;
+        padding-top: 19px;
     }
 
     footer {
     display: flex;
     justify-self: center;
-    padding: 20px;
+    padding: 0px;
     }
 }
