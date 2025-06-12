@@ -10,7 +10,6 @@ main {
 }
 
 .principal img {
-    display: flex;
     padding: 25px;
     width: 100vh;
 }
@@ -21,7 +20,6 @@ main {
     justify-content: center;
     align-items: flex-start;
     color: #fff;
-     padding: 60px 45px; 
 }
 
 .information h1 {
@@ -49,12 +47,6 @@ main {
     background-color: hsl(300, 69%, 71%);;
 }
 
-footer {
-    display: flex;
-    justify-self: end;
-    align-content: space-between;
-    padding: 50px;
-}
 
 .social div {
     display: flex;
@@ -73,6 +65,7 @@ footer {
     border-radius: 50px;
     padding-left: 9px;
     font-size: 30px;
+
 }
 
 .social a:hover {
