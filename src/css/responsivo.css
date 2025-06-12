@@ -14,25 +14,21 @@
         padding: 3px 5px;
     }
 
-    .information h1 {
+     .information h1, .information p {
         font-size: 25px;
         text-align: center;
-    }
+     }
 
-    .information p {
-        font-size: 20px;
-        text-align: center;
-        padding-top: 19px;
-    }
+     .information p {
+    font-size: 20px;
+     }
 
     footer {
-    display: flex;
     justify-self: center;
-    padding: 0px;
     }
 }
 
-@media (min-width: 1081px) and (max-width: 1440px){
+@media (min-width: 1081px) and (max-width: 1350px){
     main { 
     display: flex;
     flex-direction: row;
