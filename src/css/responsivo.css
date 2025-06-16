@@ -1,49 +1,47 @@
-@media (min-width: 330px) and (max-width: 1080px) {
-    main { 
-    flex-direction: column;
-    padding: 35px;
+@media (max-width: 1080px) {
+    body {
+        background: url('../images/bg-mobile.svg') center / cover no-repeat;
     }
-
-     .principal img {
-        width: 100%; 
-        padding: 10px 40px;
+    
+    main { 
+     flex-direction: column; 
+     padding: 25px;
+     align-items: center;
+    }
+     
+    .principal img {
+        padding: 0px 40px;
     }
 
      .information {
         align-items: center;
+        text-align: center; 
         padding: 3px 5px;
     }
 
-     .information h1, .information p {
+     .information h1 {
         font-size: 25px;
-        text-align: center;
      }
 
      .information p {
-    font-size: 20px;
+     font-size: 20px;
      }
 
     footer {
     justify-self: center;
     }
-}
+} 
 
 @media (min-width: 1081px) and (max-width: 1350px){
     main { 
-    flex-direction: row;
-    padding: 5px; 
+    padding: 15px; 
     }
 
     .principal img {
-        width: 55vh;
+        width: 40em;
     }
-
-    small {
-        flex-direction: column;
-        justify-content: center;
-    }  
 } 
 
 /* max-width: 768px (mobile)
 min-width: 769px and max-width: 1024px (tablet)
-min-width: 1025px (desktop e grandes telas) */ 
+min-width: 1025px (desktop e grandes telas) */

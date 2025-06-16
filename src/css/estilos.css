@@ -1,4 +1,4 @@
-header {
+header { 
     padding: 45px;
 } 
  
@@ -10,8 +10,8 @@ main {
 }
 
 .principal img {
-    padding: 25px;
-    width: 100vh;
+    padding: 25px;  
+    width: 100vh; 
 }
 
 .information {
@@ -24,6 +24,7 @@ main {
 
 .information h1 {
     font-weight: 800;
+
     font-size: 2.8em;
 }
 
@@ -40,6 +41,7 @@ main {
     color: hsl(257, 40%, 49%);
     font-size: 17px;
     box-shadow: 0 6px 12px rgb(0, 0, 0, 0.4);
+ 
 }
 
 .information button:hover {
@@ -62,6 +64,7 @@ main {
     padding: 9px;
     border-radius: 50px;
     font-size: 30px;
+   
 }
 
 .social a:hover {
@@ -90,3 +93,5 @@ main {
     font-size: 15px;
     padding: 3px;
 }
+
+/* lembrete -> a img com "vh" não é adequada */
