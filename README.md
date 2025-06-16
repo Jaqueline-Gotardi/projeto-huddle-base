@@ -1,6 +1,6 @@
 ## 💜 Olá, seja bem-vindo(a) a este projeto!
 
-![Capa do projeto](QUESTHTML+CSS(avançado)/tela.png)
+![projeto](tela.png)
 
 
 ## 📌 Sobre:
