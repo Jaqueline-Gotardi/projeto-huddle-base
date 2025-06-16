@@ -1,14 +1,9 @@
 body {
     height: 100vh; 
-    /* background-image: url('../images/bg-desktop.svg');
-    background-position: center;
-    background-position: no-repeat;
-    background-size: cover; */
-
     background: url('../images/bg-desktop.svg') center / cover no-repeat;
 } 
 
-header { 
+header {
     padding: 55px;
 } 
  
@@ -23,7 +18,7 @@ main {
     padding: 25px;
     width: 60vw; /* largura da tela */
     max-width: 54em;   
-    /* width: 100vh; */
+    /* width: 100vh;  --> NÃO é recomendável! */
 }
 
 .information {
@@ -36,8 +31,7 @@ main {
 
 .information h1 {
     font-weight: 800;
-
-    font-size: 2.8em;
+    font-size: 44px;
 }
 
 .information p {
@@ -53,7 +47,7 @@ main {
     color: hsl(257, 40%, 49%);
     font-size: 17px;
     box-shadow: 0 6px 12px rgb(0, 0, 0, 0.4);
- 
+    transition: 0.2s;
 }
 
 .information button:hover {
@@ -76,7 +70,7 @@ main {
     padding: 9px;
     border-radius: 50px;
     font-size: 30px;
-   
+    transition: 0.2s;
 }
 
 .social a:hover {
@@ -105,5 +99,3 @@ main {
     font-size: 15px;
     padding: 3px;
 }
-
-/* lembrete -> a img com "vh" não é adequada */
