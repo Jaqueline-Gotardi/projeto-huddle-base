@@ -27,7 +27,5 @@ Se quiser trocar uma ideia ou dar feedback, entre em contato comigo! Será um pr
 💼 LinkedIn: Jaqueline Gotardi
 
 ## 🔗 Link do projeto:
-Você pode visualizar o repositório completo aqui:
+Você pode visualizar o projeto aqui:   
 👉 https://jaqueline-gotardi.github.io/projeto-huddle-base/
-
-
