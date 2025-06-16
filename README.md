@@ -1,4 +1,6 @@
-#💜 Olá, seja bem-vindo(a) a este projeto!
+## 💜 Olá, seja bem-vindo(a) a este projeto!
+
+![Capa do projeto](QUESTHTML+CSS(avançado)/tela.png)
 
 
 ## 📌 Sobre:
@@ -21,7 +23,7 @@ Este projeto é parte de um desafio prático criado com o objetivo de exercitar 
 Sinta-se à vontade para abrir issues, sugerir melhorias ou enviar pull requests! Toda contribuição é bem-vinda e ajuda a tornar o projeto ainda melhor.
 Se quiser trocar uma ideia ou dar feedback, entre em contato comigo! Será um prazer! :)
 
-📧 E-mail: jaquelineribeirogotardi@gmail.com
+📧 E-mail: jaquelineribeirogotardi@gmail.com  
 💼 LinkedIn: Jaqueline Gotardi
 
 ## 🔗 Link do projeto:
