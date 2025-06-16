@@ -1,5 +1,15 @@
+body {
+    height: 100vh; 
+    /* background-image: url('../images/bg-desktop.svg');
+    background-position: center;
+    background-position: no-repeat;
+    background-size: cover; */
+
+    background: url('../images/bg-desktop.svg') center / cover no-repeat;
+} 
+
 header { 
-    padding: 45px;
+    padding: 55px;
 } 
  
 main {
@@ -10,8 +20,10 @@ main {
 }
 
 .principal img {
-    padding: 25px;  
-    width: 100vh; 
+    padding: 25px;
+    width: 60vw; /* largura da tela */
+    max-width: 54em;   
+    /* width: 100vh; */
 }
 
 .information {
