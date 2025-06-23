@@ -1,7 +1,7 @@
 @media (max-width: 1080px) {
     body {
         background: url('../images/bg-mobile.svg') center / cover no-repeat;
-    }
+    } 
     
     main { 
      flex-direction: column; 
@@ -9,9 +9,10 @@
      align-items: center;
     }
      
-    .principal img {
-        padding: 0px 40px;
-    }
+     .principal img {
+        padding: 0 40px;
+        width: 380px;
+     }
 
      .information {
         align-items: center;
